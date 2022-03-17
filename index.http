@@ -1,0 +1,11 @@
+#!/usr/bin/env httpx -p github --httpfile
+
+### github graphql
+//@name graphql-viewer
+GRAPHQL https://api.github.com/graphql
+Authorization: token {{token}}
+Content-Type: application/graphql
+
+query {
+    viewer { login }
+}
