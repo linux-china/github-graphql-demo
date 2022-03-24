@@ -30,12 +30,6 @@
             <version>3.22.0</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>org.junit-pioneer</groupId>
-            <artifactId>junit-pioneer</artifactId>
-            <version>1.6.2</version>
-            <scope>test</scope>
-        </dependency>
     </dependencies>
 
     <dependencyManagement>
@@ -55,7 +49,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.9.0</version>
+                <version>3.10.1</version>
                 <configuration>
                     <parameters>true</parameters>
                 </configuration>
