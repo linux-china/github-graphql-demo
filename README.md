@@ -1,15 +1,23 @@
 GitHub GraphQL demo
 =====================
-               
-Use JetBrains [GraphQL plugin](https://plugins.jetbrains.com/plugin/8097-graphql) and [httpx plugin](https://plugins.jetbrains.com/plugin/18807-httpx-requests) to test GitHub GraphQL API.
-       
+
+Use JetBrains [GraphQL plugin](https://plugins.jetbrains.com/plugin/8097-graphql) and [httpx plugin](https://plugins.jetbrains.com/plugin/18807-httpx-requests) to test GitHub
+GraphQL API.
+
 # How to Set up?
 
-After clone, create a `.env` file with your GitHub Access Token, please refer [Creating a personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)  
+After clone, create a `.env` file with your GitHub Access Token, please
+refer [Creating a personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
 
 ```
 GITHUB_TOKEN=xxxxx_yyyy
 ```
+
+# Run GraphQL Query
+
+Open index.http to edit query, and click green icon to run query.
+
+![editing](./docs/editing.png)
 
 # References
 
